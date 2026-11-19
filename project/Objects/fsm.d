@@ -1,0 +1,9 @@
+.\objects\fsm.o: ..\HARDWARE\ETH\lwip-1.4.1\src\netif\ppp\fsm.c
+.\objects\fsm.o: ..\HARDWARE\ETH\lwip-1.4.1\src\include\lwip/opt.h
+.\objects\fsm.o: ..\HARDWARE\ETH\network\lwipopts.h
+.\objects\fsm.o: ..\HARDWARE\ETH\lwip-1.4.1\src\include\lwip/debug.h
+.\objects\fsm.o: ..\HARDWARE\ETH\lwip-1.4.1\src\include\lwip/arch.h
+.\objects\fsm.o: ..\HARDWARE\ETH\lwip-1.4.1\port\arch/cc.h
+.\objects\fsm.o: ..\HARDWARE\ETH\lwip-1.4.1\port\arch/cpu.h
+.\objects\fsm.o: ..\HARDWARE\ETH\lwip-1.4.1\src\include\lwip/opt.h
+.\objects\fsm.o: E:\keiv5\ARM\ARMCC\Bin\..\include\stdio.h

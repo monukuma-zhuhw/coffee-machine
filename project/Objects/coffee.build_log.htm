@@ -1,0 +1,145 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: zhu Administrator, zhu, LIC=GMZI6-DBG21-RAHDM-XYE91-CHLEF-K68IN
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  E:\keiv5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DARMCM1.DLL V1.18.0.0
+Target DLL:      UL2CM3.DLL V1.160.3.0
+Dialog DLL:      TARMCM1.DLL V1.13.0.0
+ 
+<h2>Project:</h2>
+F:\Desktop\¿§·È»ú\¿§·È»ú-v23\project\NFC.uvprojx
+Project File Date:  10/27/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'E:\keiv5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling sys.c...
+compiling curve_display.c...
+compiling delay.c...
+compiling usart.c...
+..\SYSTEM\usart\usart.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\SYSTEM\usart\usart.c: 1 warning, 0 errors
+compiling stm32f0xx_it.c...
+..\HARDWARE\inc\light_pwm.h(44): warning:  #1-D: last line of file ends without a newline
+  #endif /* __LIGHT_PWM_H */
+..\HARDWARE\inc\brew_heater.h(91): warning:  #1-D: last line of file ends without a newline
+  #endif /* __BREW_HEATER_H */
+..\SYSTEM\usart\usart.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\inc\cmd_console.h(37): warning:  #1-D: last line of file ends without a newline
+  #endif /* __CMD_CONSOLE_H */
+stm32f0xx_it.c: 4 warnings, 0 errors
+compiling main.c...
+..\SYSTEM\usart\usart.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\inc\brew_heater.h(91): warning:  #1-D: last line of file ends without a newline
+  #endif /* __BREW_HEATER_H */
+..\HARDWARE\inc\light_pwm.h(44): warning:  #1-D: last line of file ends without a newline
+  #endif /* __LIGHT_PWM_H */
+..\HARDWARE\inc\cmd_console.h(37): warning:  #1-D: last line of file ends without a newline
+  #endif /* __CMD_CONSOLE_H */
+main.c(240): warning:  #177-D: variable "k"  was declared but never referenced
+      uint8_t k;
+main.c: 5 warnings, 0 errors
+compiling temperature_sensor.c...
+compiling gpio_ctrl.c...
+compiling heater_control.c...
+..\HARDWARE\src\heater_control.c(62): warning:  #186-D: pointless comparison of unsigned integer with zero
+      if (percent < 
+EATER_POWER_MIN || percent > HEATER_POWER_MAX)
+..\HARDWARE\src\heater_control.c: 1 warning, 0 errors
+compiling dwin_uart.c...
+compiling pid_controller.c...
+..\HARDWARE\inc\pid_controller.h(169): warning:  #1-D: last line of file ends without a newline
+  #endif /* __PID_CONTROLLER_H */
+..\HARDWARE\src\pid_controller.c(222): warning:  #1-D: last line of file ends without a newline
+  }
+..\HARDWARE\src\pid_controller.c: 2 warnings, 0 errors
+compiling ac_pump.c...
+compiling pressure_sensor.c...
+compiling encoder.c...
+compiling steam.c...
+compiling boiler.c...
+..\HARDWARE\inc\pid_controller.h(169): warning:  #1-D: last line of file ends without a newline
+  #endif /* __PID_CONTROLLER_H */
+..\HARDWARE\src\boiler.c: 1 warning, 0 errors
+compiling outlet_temp_sensor.c...
+compiling language.c...
+..\HARDWARE\src\language.c(72): warning:  #550-D: variable "g_vp_cached"  was set but never used
+  static uint8_t  g_vp_cached = 0;
+..\HARDWARE\src\language.c: 1 warning, 0 errors
+compiling water_level.c...
+compiling key_monitor.c...
+..\HARDWARE\src\key_monitor.c(65): warning:  #223-D: function "GetTick" declared implicitly
+      g_key_init_tick = GetTick();
+..\HARDWARE\src\key_monitor.c: 1 warning, 0 errors
+compiling steam_heater.c...
+..\HARDWARE\src\steam_heater.c(68): warning:  #186-D: pointless comparison of unsigned integer with zero
+      if (percent < 
+TEAM_HEATER_POWER_MIN || percent > STEAM_HEATER_POWER_MAX)
+..\HARDWARE\src\steam_heater.c: 1 warning, 0 errors
+compiling light_pwm.c...
+..\HARDWARE\inc\light_pwm.h(44): warning:  #1-D: last line of file ends without a newline
+  #endif /* __LIGHT_PWM_H */
+..\HARDWARE\src\light_pwm.c: 1 warning, 0 errors
+compiling cmd_console.c...
+..\HARDWARE\inc\cmd_console.h(37): warning:  #1-D: last line of file ends without a newline
+  #endif /* __CMD_CONSOLE_H */
+..\HARDWARE\src\cmd_console.c(151): warning:  #1-D: last line of file ends without a newline
+  #endif /* SYS_UART_CMD_ENABLE */
+..\HARDWARE\src\cmd_console.c: 2 warnings, 0 errors
+compiling settings.c...
+compiling brew_heater.c...
+..\HARDWARE\inc\brew_heater.h(91): warning:  #1-D: last line of file ends without a newline
+  #endif /* __BREW_HEATER_H */
+..\HARDWARE\src\brew_heater.c(178): warning:  #1-D: last line of file ends without a newline
+  }
+..\HARDWARE\src\brew_heater.c: 2 warnings, 0 errors
+compiling preset_defaults.c...
+compiling preset_store.c...
+compiling flash_op.c...
+linking...
+Program Size: Code=34504 RO-data=6552 RW-data=364 ZI-data=5228  
+FromELF: creating hex file...
+".\Objects\coffee.axf" - 0 Error(s), 22 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM.CMSIS.5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.1
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F0xx_DFP.2.1.1.pack
+                Keil.STM32F0xx_DFP.2.1.1
+                STMicroelectronics STM32F0 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  E:\keiv5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  E:\keiv5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

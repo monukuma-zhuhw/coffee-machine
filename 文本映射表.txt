@@ -1,0 +1,37 @@
+描述指针		中文		英文
+0x8000 		萃取温度		BREW TEMP
+0x8040		冲泡头温度	HEAD TEMP	
+0x8080 		杯数统计		CUP COUNT
+0x80C0 		照明		LIGHT
+0x8100 		预浸泡		PRE SOAK
+0x8140 		萃取时间		BREW TIME
+0x8180 		手动模式		MANUAL
+0x81C0 		变压模式		VAR PRESS
+0x8200 		杯数		CUP NUM
+0x8240 		预浸泡		PRE SOAK
+0x8280 		萃取温度		BREW TEMP
+0x82C0 		冲泡头温度	HEAD TEMP
+0x8300 		计时		TIMING
+0x8340 		灯光调节		LIGHT ADJ
+0x8380 		出厂设置		FACT SET
+0x83C0 		预浸泡		PRE SOAK
+0x8400 		压力值		PRESS VAL
+0x8440 		温度		TEMP
+0x8480 		时间		TIME
+0x84C0		预浸泡		PRE SOAK 
+0x8500		温度		TEMP		 
+0x8540 		压力值		PRESS VAL
+0x8580		时间		TIME
+0x85C0 		曲线模式		CURVE MODE
+0x8600 		变压模式		VAR PRESS
+0x8640 		压力		PRESS
+0x8680 		时间		TIME
+0x86C0 		杯数		CUP NUM
+0x8700 		重置		RESET
+0x8740 		预浸泡		PRE SOAK
+0x8780 		萃取温度		PRE SOAK
+0x87C0 		冲泡头温度	BREW TIME
+0x8800 		计时		TIMING
+0x8840 		灯光调节		LIGHT ADJ
+0x8880 		确认恢复出厂设置？	Confirm Restore Factory Settings？	
+

@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//f/Desktop/咖啡机/dgus/**)",
+      "Bash(python -c ' *)"
+    ]
+  }
+}

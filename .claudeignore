@@ -1,0 +1,39 @@
+# STM32 SPL 库 + CMSIS — Claude 不需要读，只调 API
+Library/**
+
+# Keil 编译产物 — 体积大、跟源码无关
+project/Objects/**
+project/Lists/**
+*.hex
+*.bin
+*.elf
+*.o
+*.axf
+*.map
+*.lnp
+
+# Keil IDE 临时文件
+*.uvguix.*
+*.scvd
+*.opt
+*.bak
+*.tmp
+
+# 串口调试工具 — 不是源码
+tools/serial_tool/**
+
+# DGUS 屏幕工程文件 — 是另一台机器的产物，不属于本固件
+# (你 settings.local.json 里出现过 dgus/icl-all/，但那是另一台机器的项目)
+dgus/**
+
+# 屏幕文本描述符 — 已在 CLAUDE.md 里引用，不是固件代码
+文本映射表.txt
+
+# DWIN 屏幕工程二进制文件
+*.hmi
+*.tft
+*.ico
+*.bmp
+*.jpg
+*.png
+!project/**/*.png

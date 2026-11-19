@@ -1,0 +1,9 @@
+.\objects\ppp_oe.o: ..\HARDWARE\ETH\lwip-1.4.1\src\netif\ppp\ppp_oe.c
+.\objects\ppp_oe.o: ..\HARDWARE\ETH\lwip-1.4.1\src\include\lwip/opt.h
+.\objects\ppp_oe.o: ..\HARDWARE\ETH\network\lwipopts.h
+.\objects\ppp_oe.o: ..\HARDWARE\ETH\lwip-1.4.1\src\include\lwip/debug.h
+.\objects\ppp_oe.o: ..\HARDWARE\ETH\lwip-1.4.1\src\include\lwip/arch.h
+.\objects\ppp_oe.o: ..\HARDWARE\ETH\lwip-1.4.1\port\arch/cc.h
+.\objects\ppp_oe.o: ..\HARDWARE\ETH\lwip-1.4.1\port\arch/cpu.h
+.\objects\ppp_oe.o: ..\HARDWARE\ETH\lwip-1.4.1\src\include\lwip/opt.h
+.\objects\ppp_oe.o: E:\keiv5\ARM\ARMCC\Bin\..\include\stdio.h
