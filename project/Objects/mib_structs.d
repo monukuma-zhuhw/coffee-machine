@@ -1,9 +1,0 @@
-.\objects\mib_structs.o: ..\HARDWARE\ETH\lwip-1.4.1\src\core\snmp\mib_structs.c
-.\objects\mib_structs.o: ..\HARDWARE\ETH\lwip-1.4.1\src\include\lwip/opt.h
-.\objects\mib_structs.o: ..\HARDWARE\ETH\network\lwipopts.h
-.\objects\mib_structs.o: ..\HARDWARE\ETH\lwip-1.4.1\src\include\lwip/debug.h
-.\objects\mib_structs.o: ..\HARDWARE\ETH\lwip-1.4.1\src\include\lwip/arch.h
-.\objects\mib_structs.o: ..\HARDWARE\ETH\lwip-1.4.1\port\arch/cc.h
-.\objects\mib_structs.o: ..\HARDWARE\ETH\lwip-1.4.1\port\arch/cpu.h
-.\objects\mib_structs.o: ..\HARDWARE\ETH\lwip-1.4.1\src\include\lwip/opt.h
-.\objects\mib_structs.o: E:\keiv5\ARM\ARMCC\Bin\..\include\stdio.h

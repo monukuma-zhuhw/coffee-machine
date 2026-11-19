@@ -1,9 +1,0 @@
-.\objects\mib2.o: ..\HARDWARE\ETH\lwip-1.4.1\src\core\snmp\mib2.c
-.\objects\mib2.o: ..\HARDWARE\ETH\lwip-1.4.1\src\include\lwip/opt.h
-.\objects\mib2.o: ..\HARDWARE\ETH\network\lwipopts.h
-.\objects\mib2.o: ..\HARDWARE\ETH\lwip-1.4.1\src\include\lwip/debug.h
-.\objects\mib2.o: ..\HARDWARE\ETH\lwip-1.4.1\src\include\lwip/arch.h
-.\objects\mib2.o: ..\HARDWARE\ETH\lwip-1.4.1\port\arch/cc.h
-.\objects\mib2.o: ..\HARDWARE\ETH\lwip-1.4.1\port\arch/cpu.h
-.\objects\mib2.o: ..\HARDWARE\ETH\lwip-1.4.1\src\include\lwip/opt.h
-.\objects\mib2.o: E:\keiv5\ARM\ARMCC\Bin\..\include\stdio.h
